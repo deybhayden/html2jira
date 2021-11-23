@@ -1,0 +1,25 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "bfab2cb5865b3a21dcc47754dda8437cc0f50141d13445350947d4e91a9e62de"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "html2jira": {
+            "editable": true,
+            "path": "."
+        }
+    },
+    "develop": {}
+}
