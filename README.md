@@ -1,6 +1,5 @@
 # html2jira
 
-
 html2jira is a Python script that converts a page of HTML into the wiki format used by Atlassian's Jira and Confluance applications.
 
 Usage: `html2jira.py [(filename|url) [encoding]]`
@@ -29,21 +28,19 @@ Or you can use it from within Python:
 Or with some configuration options:
 
     import html2jira
-    h = html2jira.HTML2Text()
+    h = html2jira.HTML2Jira()
     h.ignore_links = True
     print h.handle("<p>Hello, <a href='http://earth.google.com/'>world</a>!")
 
 _Originally written by Aaron Swartz. This code is distributed under the GPLv3._
 
-
 ## How to install
 
 clone this repository, open your terminal, navigate to the root directory and run
-    
+
     python setup.py install
 
-You may need admin privaliges 
-
+You may need admin privileges
 
 ## How to run unit tests
 
