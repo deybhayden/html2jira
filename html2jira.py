@@ -6,7 +6,7 @@ __version__ = "2014.4.5"
 __author__ = "Aaron Swartz (me@aaronsw.com)"
 __copyright__ = "(C) 2004-2008 Aaron Swartz. GNU GPL 3."
 __contributors__ = ["Martin 'Joey' Schulze", "Ricardo Reyes",
-                    "Kevin Jay North", "Matěj Cepl"]
+                    "Kevin Jay North", "Matěj Cepl", "Ben Hayden"]
 
 # TODO:
 #   Support decoded entities with unifiable.
